@@ -3,24 +3,12 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-fazendas',
   templateUrl: './fazendas.component.html',
-  styleUrls: ['./fazendas.component.css']
+  styleUrls: ['./fazendas.component.css'],
 })
 export class FazendasComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  @Input() public titulo: string = 'Fazendas';
 
-  @Input() public titulo: string = "Fazendas"
-
-  
-
-  ngOnInit(): void {
-
-    
-
-  }
-
+  ngOnInit(): void {}
 }
-
-
-
-

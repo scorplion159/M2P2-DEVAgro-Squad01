@@ -1,80 +1,81 @@
 body {
-    background-color: #375F24;
-    }
+  background-color: #375f24;
+}
 
 .parent {
-     position: relative;
-    }
+  position: relative;
+}
 
 .child {
-    width: 1000px;
+  width: 1000px;
 
-    position: absolute;
-    top: 12%;
-    left: 30%;
+  position: absolute;
+  top: 12%;
+  left: 30%;
 
-    margin: -70px 0 0 -70px;
-    }
-
-.centralizar_logo{
-    text-align: center;
+  margin: -70px 0 0 -70px;
 }
 
-h1{
-    color: var(--main-green-color);
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
+.centralizar_logo {
+  text-align: center;
 }
 
-h2{
-    color: var(--main-green-color);
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
+h1 {
+  color: var(--main-green-color);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-h5{
-    color: var(--main-green-color);
-    position: relative;
-    font-size: 1rem;
-    font-weight: 800;
-    left: 1%;
+h2 {
+  color: var(--main-green-color);
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
 }
 
-input:invalid, textarea:invalid {
-    border-color: red;
+h5 {
+  color: var(--main-green-color);
+  position: relative;
+  font-size: 1rem;
+  font-weight: 800;
+  left: 1%;
 }
 
-input:valid, textarea:valid {
-    border-color: #375F24;
-}
-.quadro{
-    background-color: var(--white);
-    width:100%;
-    border-style: solid;
-    border-color: var(--white);
-    border-radius: 8px;
+input:invalid,
+textarea:invalid {
+  border-color: red;
 }
 
-.entrada_texto{
-    border-color: var(--main-green-color);
-    border-radius: 5px;
-    width:97%;
-
-    position: relative;
-    left: 1%;
+input:valid,
+textarea:valid {
+  border-color: #375f24;
+}
+.quadro {
+  background-color: var(--white);
+  width: 100%;
+  border-style: solid;
+  border-color: var(--white);
+  border-radius: 8px;
 }
 
+.entrada_texto {
+  border-color: var(--main-green-color);
+  border-radius: 5px;
+  width: 97%;
 
-.centralizarbutton{
-    background-color: var(--main-green-color);
-    border-color: var(--main-green-color);
-    color: var(--white);
+  position: relative;
+  left: 1%;
+}
 
-    border-radius: 5px;
-    width:97%;
+.centralizarbutton {
+  background-color: var(--main-green-color);
+  border-color: var(--main-green-color);
+  color: var(--white);
 
-    position: relative;
-    left: 1%;
+  border-radius: 5px;
+  width: 97%;
+
+  position: relative;
+  left: 1%;
 }

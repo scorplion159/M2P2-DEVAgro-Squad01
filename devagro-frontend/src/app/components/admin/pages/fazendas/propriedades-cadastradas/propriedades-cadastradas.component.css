@@ -2,7 +2,7 @@
   font-size: 24px;
   font-weight: bold;
 }
-  
+
 .button-dropdown {
   background: var(--main-green-color);
   font-size: 18px;
@@ -17,7 +17,7 @@ th {
   padding-left: 40px;
   color: #252733;
 }
-  
+
 th:nth-child(2) {
   font-size: 18px;
   font-weight: bold;
@@ -25,7 +25,7 @@ th:nth-child(2) {
   padding-right: 40px;
   color: #252733;
 }
-  
+
 td {
   font-size: 20px;
   font-weight: bold;
@@ -33,7 +33,7 @@ td {
   padding-left: 40px;
   color: #0e1d8e;
 }
-  
+
 td:nth-child(2) {
   font-size: 20px;
   font-weight: bold;
@@ -41,7 +41,7 @@ td:nth-child(2) {
   padding-right: 40px;
   color: #0e1d8e;
 }
-  
+
 .fundo-tabela {
   padding: 2rem 2rem;
   box-sizing: border-box;

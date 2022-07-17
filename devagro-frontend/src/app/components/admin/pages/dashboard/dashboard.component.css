@@ -54,8 +54,8 @@ h4 {
   border: 1px solid var(--main-green-color);
 }
 
-.valor{
-  font-size:40px;
+.valor {
+  font-size: 40px;
   color: var(--main-green-color);
   padding-bottom: 10px;
 }
